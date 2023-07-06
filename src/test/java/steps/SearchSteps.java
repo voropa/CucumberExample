@@ -13,19 +13,19 @@ import org.testng.Assert;
 import pages.SearchResultsPage;
 import pages.YandexSearchPage;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class SearchSteps {
-    private WebDriver driver;
+    /*private WebDriver driver;
     private YandexSearchPage yandexSearchPage;
     private SearchResultsPage searchResultsPage;
     private String searchWord;
 
     @Before
     public void initialize() {
-        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         yandexSearchPage = new YandexSearchPage(driver);
         searchResultsPage = new SearchResultsPage(driver);
@@ -73,5 +73,5 @@ public class SearchSteps {
     @Given("pre condition")
     public void preCondition() {
         System.out.println("I am pre-condition");
-    }
+    }*/
 }

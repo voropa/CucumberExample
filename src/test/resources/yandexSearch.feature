@@ -12,6 +12,7 @@ Feature: Yandex search
     |TeachMeSkills|
     |Iphone|
     |Selenium|
+
   Scenario: Verify search results count
     Given Word for search is "TeachMeSkills"
     When I navigate to yandex.by
